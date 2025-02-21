@@ -152,4 +152,19 @@ python main.py --pokec_age_bin --sensitive_attr_mode OvA --dataset pokec_n --alp
 python main.py --pokec_age_bin --sensitive_attr_mode OvO --dataset pokec_z --alpha 0.01 --beta 4 --node 102 --edge 50 --n_times 5 --before --device 0 --models 'GCN' 'GraphSAGE' 'APPNP' 'SGC'
 
 python main.py --pokec_age_bin --sensitive_attr_mode OvO --dataset pokec_n --alpha 0.01 --beta 4 --node 102 --edge 50 --n_times 5 --before --device 0 --models 'GCN' 'GraphSAGE' 'APPNP' 'SGC'
-``` 
+```
+
+## Sources:
+The code used to reproduce the results of NIFA comes from the following repository [https://github.com/CGCL-codes/NIFA](https://github.com/CGCL-codes/NIFA). This repository is licensed under CC BY-NC-ND 4.0. However, the authors have explicitly granted us permission to modify and extend the code for our research purposes.
+
+As the NIFA repository does not contain code for reproducing all results, we added code from the repositories below. More information about the code and their licenses can be viewed in the respective repositories.
+
+FA-GNN: [https://github.com/mengcao327/attack-gnn-fairness](https://github.com/mengcao327/attack-gnn-fairness)
+
+FairGNN: [https://github.com/EnyanDai/FairGNN](https://github.com/EnyanDai/FairGNN)
+
+Fairsin: [https://github.com/BUPT-GAMMA/FairSIN](https://github.com/BUPT-GAMMA/FairSIN)
+
+Fairvgnn: [https://github.com/yuwvandy/FairVGNN](https://github.com/yuwvandy/FairVGNN)
+
+TDGIA: [https://github.com/THUDM/tdgia](https://github.com/THUDM/tdgia)
