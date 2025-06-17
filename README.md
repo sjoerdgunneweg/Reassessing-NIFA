@@ -1,4 +1,4 @@
-# Reassessing Fairness: A Reproducibility Study of NIFA’s Impact on GNN Models
+# Reassessing Fairness: a Reproducibility Study of NIFA’s Impact on GNN Models
 
 This repository presents a reproduction of [Are Your Models Still Fair? Fairness Attacks on
 Graph Neural Networks via Node Injections](https://arxiv.org/abs/2406.03052v2). 
